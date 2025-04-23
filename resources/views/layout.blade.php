@@ -12,7 +12,7 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container">
-      <a class="navbar-brand" href="#">SPK SMART</a>
+      <a class="navbar-brand" href="{{ url('/') }}">SPK SMART</a>
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav me-auto">
           <li class="nav-item"><a href="{{ route('kriterias.index') }}" class="nav-link">Kriteria</a></li>

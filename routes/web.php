@@ -6,7 +6,7 @@ use App\Http\Controllers\HasilController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('layout');
+    return view('welcome');
 });
 
 Route::resource('kriterias', KriteriaController::class);
